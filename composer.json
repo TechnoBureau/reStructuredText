@@ -1,0 +1,44 @@
+{
+    "name": "TechnoBureau/reStructuredText",
+    "description": "reStructuredText is the one of the documentation format",
+    "keywords": ["reStructuredText", "framework", "markdown", "commonmark", "common mark", "Laravel reStructuredText", "Laravel-reStructuredText", "Ganapathi Chidambaram", "Ganapathi Chidambaram","TechnoBureau"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganapathi Chidambaram",
+            "email": "ganapathi.rj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.0.*|5.1.*",
+        "illuminate/support": "5.0.*|5.1.*",
+        "illuminate/view": "5.0.*|5.1.*",
+        "league/commonmark": "0.10.*"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "~3.0",
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^4.7.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "TechnoBureau\\reStructuredText\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TechnoBureau\\Tests\\reStructuredText\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

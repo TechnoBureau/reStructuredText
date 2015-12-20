@@ -1,0 +1,23 @@
+{
+    "name": "gregwar/rst",
+    "description": "PHP library to parse reStructuredText documents",
+    "keywords": ["rst", "markup", "parser"],
+    "homepage": "https://github.com/reStructuredText/RST",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grégoire Passault",
+            "email": "g.passault@gmail.com",
+            "homepage": "http://www.gregwar.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "target-dir": "reStructuredText/RST",
+    "autoload": {
+        "psr-0": {
+            "reStructuredText\\RST": ""
+        }
+    }
+}
